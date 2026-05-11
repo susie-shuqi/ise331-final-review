@@ -1,0 +1,78 @@
+
+
+===== ISE331-S26-HW05.pdf | Page 1 =====
+
+ 
+ISE 331 - Fundamentals of Computer Security 
+Homework Assignment 05 
+ 
+Assigned: Tuesday, 04/14/2026 
+Due:      Tuesday, 04/28/2026, by 11:59 PM 
+Points: 30 points (5 points per question) 
+ 
+Please complete and turn in responses to the following questions 
+from the textbook: 
+ 
+Chapter 10, Essay Questions: 1 
+ 
+10.1. Compare and contrast routers and switches by describing 
+the advantages and disadvantages of each. 
+ 
+Chapter 11, Essay Questions: 1, 2 
+ 
+11.1. A co-worker with a strong Windows background is having 
+difficulty understanding Linux file permissions. Describe Linux 
+file permissions to him. Compare Linux file permissions to 
+Windows file permissions. 
+ 
+11.2. How are authentication and authorization alike and how are 
+they different. What is the relationship, if any, between the 
+two? 
+ 
+Chapter 13, Essay Questions: 1 
+ 
+13.1. Discuss the differences between an anomaly-based and a 
+misuse-based detection model. Which would you use to protect a 
+corporate network of 10,000 users? Why would you choose that 
+model? 
+ 
+Chapter 15, Essay Questions: 1, 2 
+ 
+15.1. Compare and contrast port scanning and ping sweeps. 
+ 
+15.2. What is the best practice to employ to mitigate malware 
+effects on a machine? 
+ 
+You are encouraged to also complete the "Key Terms Quiz" and the 
+"Multiple Choice Quiz" for chapters 10, 11, 13, and 15, but you 
+are not required to turn those in. 
+ 
+
+
+
+===== ISE331-S26-HW05.pdf | Page 2 =====
+
+I have posted copies of the End of Chapter exercises from the 
+textbook for chapters 10, 11, 13 and 15 along with this 
+assignment. 
+ 
+Submission instructions: 
+1. Please write your completed assignment in a word processor 
+   or text editor. 
+  -No scans of handwritten prose will be accepted. 
+  -Scans of hand-drawn diagrams are acceptable. 
+2. Please submit your completed assignment through Blackboard  
+   in PDF format. 
+3. Please name your file ise331_hw5_LastnameFirstname.pdf 
+3. At the top of your submission, please include the  
+   following: 
+      -Name 
+      -SBU ID Number 
+      -SBU netid 
+      -Date 
+      -ISE 331, HW 5 
+4. Exam questions will be based on the homework assignments.  
+   Taking the homework assignments seriously is a good way to  
+   prepare for the exams. 
+5. These are individual assignments. Any collaboration on  
+   answers will be considered a violation of academic honesty. 

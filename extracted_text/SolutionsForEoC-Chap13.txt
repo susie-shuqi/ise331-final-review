@@ -1,0 +1,114 @@
+
+
+===== SolutionsForEoC-Chap13.pdf | Page 1 =====
+
+Principles of Computer Security, Sixth Edition 
+ 
+ 
+ 
+ 
+Chapter 13 Solutions 
+Copyright © 2022 by McGraw Hill. All rights reserved. 
+ 
+ 
+ 
+ 
+ 
+1 
+Principles of Computer Security, Sixth Edition 
+Chapter 13 Solutions 
+Key Terms Quiz 
+1. protocol analyzer 
+2. false positive 
+3. honeypot or honeynet 
+4. content-based signature 
+5. anomaly detection model 
+6. Port mirroring 
+7. analysis engine 
+8. Banner grabbing 
+9. Context-based signature 
+10. Suricata 
+Multiple-Choice Quiz 
+1. A. The two main types of intrusion detection systems are network based and host based. 
+Network-based systems monitor network connections for suspicious traffic. Host-based 
+systems reside on an individual system and monitor that system for suspicious or malicious 
+activity. 
+2. B. The two main types of IDS signatures are context based and content based. Context-based 
+signatures examine traffic and how that traffic fits into the other traffic around it. A port scan 
+is a good example of a context-based signature. A content-based signature looks at what is 
+inside the traffic, such as the contents of a specific packet. 
+3. D. A passive, host-based IDS runs on the local system, cannot interfere with traffic or 
+activity on that system, and would have access to local system logs. 
+4. B. A network-based IDS typically cannot decrypt and read encrypted traffic. This is one of 
+the principal weaknesses of network-based intrusion detection systems. 
+
+
+
+===== SolutionsForEoC-Chap13.pdf | Page 2 =====
+
+Principles of Computer Security, Sixth Edition 
+ 
+ 
+ 
+ 
+Chapter 13 Solutions 
+Copyright © 2022 by McGraw Hill. All rights reserved. 
+ 
+ 
+ 
+ 
+ 
+2 
+5. C. An active IDS can perform all the functions of a passive IDS (monitoring, alerting, 
+reporting, and so on), with the added ability of responding to suspected attacks with 
+capabilities such as sending TCP reset messages to the source and destination IP addresses. 
+6. A. Honeypots are designed to attract attackers by providing what appear to be easy, inviting 
+targets. The honeypot collects and records the activity of attackers and their tools. 
+7. C. Banner grabbing is the sending of a protocol across a known port and examining the 
+return signal as to the protocol in order to determine the version of the service that is 
+responding. 
+8. B. Preventative IDSs are designed to stop malicious activity from occurring. 
+9. C. IPS stands for intrusion prevention system. 
+10. D. A protocol analyzer is a very flexible tool and can be used for network traffic analysis, 
+statistics collection, and monitoring and identification of suspicious or malicious traffic. 
+Essay Quiz 
+1. The response for the initial portion of this question, “discuss the differences between an 
+anomaly-based and a misuse-based detection model,” should include the following elements: 
+Anomaly-based models: 
+• Tend to be more complex than misuse based 
+• Must know what “normal” behavior is in order to classify abnormal behavior 
+• Must have the ability to adjust the “normal behavior” baseline to accommodate new 
+systems and applications 
+• Tend to have a high number of false positives 
+• Typically are not restricted to just a specific set of signatures 
+Misuse-based models: 
+• Are easier to implement and more common 
+• Look for known patterns of suspicious or malicious activity 
+• Are very reliant on a developed signature set 
+
+
+
+===== SolutionsForEoC-Chap13.pdf | Page 3 =====
+
+Principles of Computer Security, Sixth Edition 
+ 
+ 
+ 
+ 
+Chapter 13 Solutions 
+Copyright © 2022 by McGraw Hill. All rights reserved. 
+ 
+ 
+ 
+ 
+ 
+3 
+• Will likely not see a new attack if there is no signature to match it 
+The remaining two questions are essentially opinion based, and the answer should explain the 
+choices between the two models and provide supporting details as to why they would choose 
+one model over the other. 
+2. The key items in the chapter are intrusion detection systems, both host and network based. 
+These can be compared and contrasted. There are also intrusion prevention systems, and 
+these can be compared and contrasted to the IDS types already mentioned. The third major 
+element is honeypots/nets. 
+ 

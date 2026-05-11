@@ -1,0 +1,158 @@
+
+
+===== SolutionsForEoC-Chap09.pdf | Page 1 =====
+
+Principles of Computer Security, Sixth Edition 
+ 
+ 
+ 
+ 
+Chapter 9 Solutions 
+Copyright © 2022 by McGraw Hill. All rights reserved. 
+ 
+ 
+ 
+ 
+ 
+1 
+Principles of Computer Security, Sixth Edition 
+Chapter 9 Solutions 
+Key Terms Quiz 
+1. network 
+2. datagram 
+3. routing 
+4. Media Access Control (MAC) address 
+5. subnet mask 
+6. topology 
+7. local area network (LAN) 
+8. protocol 
+9. three-way handshake 
+10. Network Address Translation (NAT) 
+Multiple-Choice Quiz 
+1. A. Layer 1 of the OSI model is the physical layer. 
+2. B. The User Datagram Protocol (UDP) is by definition a connectionless protocol. 
+3. C. The process that dynamically assigns an IP address to a network device is called the 
+Dynamic Host Configuration Protocol (DHCP). 
+4. B. The three-way handshake is SYN, SYN/ACK, ACK. 
+5. D. The Internet Control Message Protocol (ICMP) is a control and information protocol used 
+by network devices to determine such things as a remote network’s availability and the 
+length of time required to reach a remote network. 
+6. B. The protocol that translates names into IP addresses is known as Domain Name System 
+(DNS). 
+7. C. Dividing the network address space into smaller networks is called subnetting. 
+8. A. The protocol that translates private (nonroutable) IP addresses into public (routable) IP 
+addresses is called Network Address Translation (NAT). 
+9. C. The Transmission Control Protocol (TCP) carries sequence numbers, which allows for 
+packets to be processed in the order they were sent. 
+
+
+
+===== SolutionsForEoC-Chap09.pdf | Page 2 =====
+
+Principles of Computer Security, Sixth Edition 
+ 
+ 
+ 
+ 
+Chapter 9 Solutions 
+Copyright © 2022 by McGraw Hill. All rights reserved. 
+ 
+ 
+ 
+ 
+ 
+2 
+10. C. The only entry that would represent a valid MAC address is 00:07:e9:7c:c8:aa. All the 
+others are either too short or too long. 
+Essay Quiz 
+1. Answers to this question will vary but should include a basic discussion of the advantages 
+and disadvantages of the TCP and UDP protocols. Some students may present a greater 
+knowledge than what is presented in the text, but all answers should include the following: 
+TCP Protocol 
+• Advantages Connection oriented; guaranteed delivery; packets processed in sequence 
+• Disadvantages Requires overhead; higher cost in terms of bandwidth and processing 
+UDP Protocol 
+• Advantages Connectionless; lightweight and fast; good for streaming media 
+• Disadvantages No guarantees; no error checking; packets may be processed out of 
+sequence 
+2. Answers to this question will vary but should include a basic discussion of DHCP with the 
+following points: 
+• Hosts are dynamically assigned an IP address when they connect to the network. 
+• IP addresses are assigned with a limited lifespan. 
+• The system must request another IP address when its DHCP lease expires. 
+• IP addresses are assigned from an available pool, and no address is given if no more 
+addresses are available. 
+For the opinion side of the question, answers must be judged on how well students defend 
+their position. Most students should see that DHCP is really only appropriate for client 
+systems. Servers are much more likely to have static IP addresses assigned to each server. 
+3. Answers should include a discussion of each of the three main topologies discussed in this 
+chapter: 
+• Star topology All network devices are connected to a central point. This creates a star-
+like pattern for which the topology is named, as shown in Figure 9.2 of the textbook. 
+
+
+
+===== SolutionsForEoC-Chap09.pdf | Page 3 =====
+
+Principles of Computer Security, Sixth Edition 
+ 
+ 
+ 
+ 
+Chapter 9 Solutions 
+Copyright © 2022 by McGraw Hill. All rights reserved. 
+ 
+ 
+ 
+ 
+ 
+3 
+• Bus topology All network components are connected to the same cable, often called 
+“the bus” or “the backbone,” as shown in Figure 9.3 of the textbook. 
+• Ring topology Network components are connected to each other in a closed loop, with 
+each device directly connected to two other devices, as shown in Figure 9.4 of the 
+textbook. 
+4. Answers should discuss the three-way handshake used to initiate TCP connections between 
+two systems. The initiating system sends a SYN to the system it needs to open a connection 
+with. The responding system sends back a SYN/ACK to the initiating system. The initiating 
+system sends back an ACK to complete the three-way handshake and initialize the TCP 
+connection. Some students may also provide a diagram, such as the one shown in Figure 9.12 
+of the textbook. 
+5. Answers to this question will vary widely but all should include the following key points: 
+• IP addresses are 32-bit numbers that are broken up into a network portion and a host 
+portion. 
+• The network portion of the IP address is also known as the network ID. 
+• A subnet mask is used to tell you how much of the 32-bit address space is being used to 
+represent the network portion of the address and how much is being used to represent the 
+host portion of the address. 
+The examples will likely follow the sample from the chapter: 
+Subnet mask: 255.255.255.0 
+IP address: 10.10.10.101 
+First, you must convert the address and subnet mask to their binary representations: 
+Subnet mask: 11111111.11111111.11111111.00000000 
+IP address: 00001010.00001010.00001010.01100101 
+Then, you perform a bitwise AND operation to get the subnet address. The bitwise AND 
+operation examines each set of matching bits from the binary representation of the subnet 
+mask and the IP address. For each set where both the mask and address bits are 1, the result 
+
+
+
+===== SolutionsForEoC-Chap09.pdf | Page 4 =====
+
+Principles of Computer Security, Sixth Edition 
+ 
+ 
+ 
+ 
+Chapter 9 Solutions 
+Copyright © 2022 by McGraw Hill. All rights reserved. 
+ 
+ 
+ 
+ 
+ 
+4 
+is a 1. Otherwise, if either bit is a 0, the result is a 0. So, for this example we get the 
+following: 
+Network ID: 00001010.00001010.00001010.00000000 
+ 

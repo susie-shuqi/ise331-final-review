@@ -1,0 +1,71 @@
+
+
+===== ISE331-S26-HW04.pdf | Page 1 =====
+
+ 
+ISE 331 - Fundamentals of Computer Security 
+Homework Assignment 04 
+ 
+Assigned: Tuesday, 03/24/2026 
+Due:      Tuesday,  04/07/2026, by 11:59 PM 
+Points:   30 points (5 pts. per question) 
+ 
+Please complete and turn in responses to the following questions 
+from the textbook: 
+ 
+Chapter 09, Essay Questions: 1, 3, 4, and 5 
+ 
+9.1. A developer in your company is building a new application 
+and has asked you if she should use TCP- or UDP-based 
+communications. Provide her with a brief discussion of the 
+advantages and disadvantages of each protocol. 
+ 
+9.3. Describe three basic types of network topologies and 
+provide a sample diagram of each type. 
+ 
+9.4. Describe the three-way handshake process used to initiate 
+TCP connections. 
+ 
+9.5. Your boss wants to know how subnetting works. Provide her 
+with a brief description and be sure to include an example to 
+illustrate how subnetting works. 
+ 
+Chapter 17, Essay Questions: CMK.17.1, CMK.17.2 
+ 
+CMK.17.1. Explain how a TLS connection is established. 
+ 
+CMK.17.2. What is the purpose of the random nonces in the 
+       SSL/TLS handshake? 
+ 
+You are encouraged to also complete the "Key Terms Quiz" and the 
+"Multiple Choice Quiz" for chapters 9 and 17, but you are not 
+required to turn those in. 
+ 
+I have posted copies of the End of Chapter exercises from the 
+textbook for chapters 9 and 17 along with this assignment. 
+ 
+Submission instructions: 
+1. Please write your completed assignment in a word processor 
+   or text editor. 
+  -No scans of handwritten prose will be accepted. 
+  -Scans of hand-drawn diagrams are acceptable. 
+
+
+
+===== ISE331-S26-HW04.pdf | Page 2 =====
+
+2. Please submit your completed assignment through Blackboard  
+   in PDF format. 
+3. Please name your file ise331_hw4_LastnameFirstname.pdf 
+3. At the top of your submission, please include the  
+   following: 
+      -Name 
+      -SBU ID Number 
+      -SBU netid 
+      -Date 
+      -ISE 331, HW 4 
+4. Exam questions will be based on the homework assignments.  
+   Taking the homework assignments seriously is a good way to  
+   prepare for the exams. 
+5. These are individual assignments. Any collaboration on  
+   answers will be considered a violation of academic honesty. 

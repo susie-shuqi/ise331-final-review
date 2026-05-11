@@ -1,0 +1,86 @@
+
+
+===== SolutionsForEoC-Chap10.pdf | Page 1 =====
+
+Principles of Computer Security, Sixth Edition 
+ 
+ 
+ 
+ 
+Chapter 10 Solutions 
+Copyright © 2022 by McGraw Hill. All rights reserved. 
+ 
+ 
+ 
+ 
+ 
+1 
+Principles of Computer Security, Sixth Edition 
+Chapter 10 Solutions 
+Key Terms Quiz 
+1. router 
+2. network access control (NAC) 
+3. network interface card (NIC) 
+4. bridge, switch 
+5. Sandboxing 
+6. Workstation 
+7. hub 
+8. shielded twisted-pair (STP) or unshielded twisted-pair (UTP) 
+9. firewall 
+10. private branch exchange (PBX) 
+Multiple-Choice Quiz 
+1. C. Switches operate at Layer 2, the data link layer of the OSI model. 
+2. D. The standard connector for UTP in an Ethernet network is the RJ-45 connector. An RJ-45 
+connector is larger than a standard phone connector. 
+3. C. A coaxial connector carries one wire, one physical circuit. 
+4. A. Microsoft NAP (Network Access Protection) is one form of network access control. 
+5. C. The twist in twisted-pair wires reduces crosstalk between wires. 
+6. B. VM sprawl is a condition of uncontrolled spreading of disorganization caused by a lack of 
+an organizational structure when many similar elements require management. Just as you can 
+lose a file or an e-mail and have to go hunt for it, you can misplace a virtual machine. 
+7. D. The Simple Network Management Protocol is used to control network devices from a 
+central control location. 
+
+
+
+===== SolutionsForEoC-Chap10.pdf | Page 2 =====
+
+Principles of Computer Security, Sixth Edition 
+ 
+ 
+ 
+ 
+Chapter 10 Solutions 
+Copyright © 2022 by McGraw Hill. All rights reserved. 
+ 
+ 
+ 
+ 
+ 
+2 
+8. D. Firewalls can do all of these things. 
+9. A. SMTP, the Simple Mail Transfer Protocol, is used to move e-mail across a network. 
+10. D. USB-based flash memory is low cost, fast, and high capacity—currently up to 1 TB. 
+Essay Quiz 
+1. Routers allow different IP address ranges to talk to each other. Routers are used for global 
+addressing and operate off of the IP address (end-to-end addressing). They are more 
+expensive than switches. Switches allow communication between machines on the same IP 
+subnet. They work on Layer 2 addresses and are next hop only in field of view. Switches are 
+for terminal local addressing inside local networks. 
+2. The following are common threats to the transmission media in a network, organized by type 
+of transmission media: 
+Media Type 
+Threats 
+Cabled media (coax, UTP, STP) 
+Cable interruption (such as being cut by a backhoe) 
+Loose connections 
+Tapping for eavesdropping 
+Wireless 
+Eavesdropping 
+RF interference 
+IR 
+Eavesdropping 
+Short-range issues, such as blocked line of sight 
+Fiber-optic cable 
+Cable interruption (such as being cut by a backhoe) 
+ 

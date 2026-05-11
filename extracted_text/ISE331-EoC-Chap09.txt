@@ -1,0 +1,310 @@
+
+
+===== ISE331-EoC-Chap09.pdf | Page 1 =====
+
+Chapter 9 Review 
+ 
+Chapter Summary 
+ 
+After reading this chapter and completing the exercises, you should understand the following 
+about networks. 
+ 
+Identify the basic network architectures 
+• The two broad categories of networks are LANs and WANs.     
+• The physical arrangement of a network is typically called the network’s topology.     
+• The four main types of network topologies are ring, bus, star, and mixed.     
+• Additional architectures include wireless and ad hoc.  
+ 
+Examine segregation, segmentation, and isolation with respect to network architectures 
+• Understand both physical and logical structures, and their differences.     
+• The use of airgaps, zones, and conduits in control system architectures is a key element of 
+their network security architecture.     
+• Enclaves act as local segregation entities.     
+• Using zero trust for the authentication model changes the old perimeter security model of 
+networks.  
+ 
+Classify security zones 
+• A DMZ  is a buffer zone between networks with different trust levels. Companies often 
+place public resources in a DMZ so that Internet users and internal users may access 
+those resources without exposing the internal company network to the Internet.     
+• An intranet  is a private, internal network that uses common network technologies 
+(HTTP, FTP, and so on) to share information and provide resources to organizational 
+users.     
+• An extranet  is a semiprivate network that uses common network technologies (HTTP, 
+FTP, and so on) to share information and provide resources to business partners.     
+• An enclave  is a specialized security zone with common security requirements.     
+• A VLAN  (or virtual LAN) is a group of ports on a switch configured to create a logical 
+network of computers that appear to be connected to the same network, even if they are 
+located on different physical network segments. Systems on a VLAN can communicate 
+with each other but cannot communicate directly with systems on other VLANs.     
+• Trunking  is the process of spanning a single VLAN across multiple switches.  
+ 
+Explain routing and address translation 
+• The process of moving packets from one end device to another through different 
+networks is called routing.     
+• Subnetting  is the process of dividing a network address space into smaller networks.     
+• DHCP allows network devices to be automatically configured on a network and 
+temporarily assigned an IP address.     
+• Network Address Translation (NAT) converts private, internal IP addresses to public, 
+routable IP addresses, and vice versa.  
+
+
+
+===== ISE331-EoC-Chap09.pdf | Page 2 =====
+
+ 
+Examine the Internet Protocol in depth 
+• IP packets provide the method of moving data, with headers defining the type of 
+packet.     
+• Different packet types, TCP and UDP, have different levels of overhead and delivery 
+guarantees.     
+• ICMP packets manage errors and diagnostic issues.     
+• IPv6 is a complete overhaul of the IP protocol, not just an expanded address space.  
+ 
+Define the basic network protocols 
+• Protocols, agreed-upon formats for exchanging or transmitting data between systems, 
+enable computers to communicate.     
+• When data is transmitted over a network, it is usually broken up into smaller pieces called 
+packets.     
+• Most protocols define the types and format for the packets used in them.     
+• TCP is connection oriented, requires the three-way handshake to initiate a connection, 
+and provides guaranteed and reliable data delivery.     
+• UDP is connectionless, lightweight, and provides limited error checking and no delivery 
+guarantee.     
+• Each network device has a unique hardware address known as a MAC address. The MAC 
+address is used for packet delivery.     
+• Network devices are also typically assigned a 32-bit number known as an IP address.     
+• The Domain Name Service (DNS) translates names like www.cnn.com into IP addresses.  
+ 
+Explore additional elements of networking 
+• Internetworking covers how different networks are connected using BGP and other 
+protocols.     
+• MPLS covers how packets can traverse telecom networks with switching to guarantee 
+performance.     
+• Software-defined networks (SDNs) separate the data and management planes to gain 
+flexibility and capability.     
+• Quality of service (QoS) recognizes that not all packets need the same level of technical 
+timing and allow for flexibility in capacity.     
+• Traffic engineering comprises the steps to achieve quality of service and performance 
+metrics.     
+• Route security examines the concepts of end-to-end protection of communications.   
+ 
+ 
+Key Terms  
+ad hoc (272)  
+Address Resolution Protocol (ARP) (294)  
+airgap (275)  
+autonomous systems (ASs) (303)  
+Border Gateway Protocol (BGP) (303)  
+bus topology (270)  
+
+
+
+===== ISE331-EoC-Chap09.pdf | Page 3 =====
+
+control systems (276)  
+datagram (284)  
+denial of service (DOS) (288)  
+DMZ (277)  
+DNS over HTTPS (DoH) (297)  
+DNSSEC (296)  
+Domain Name System (DNS) (295)  
+Dynamic Host Configuration Protocol (DHCP) (298)  
+east-west traffic (279)  
+enclave (273)  
+Ethernet (293)  
+extranet (280)  
+flat network (281)  
+guest (280)  
+hardened operating system (277)  
+honeynet (280)  
+honeypot (280)  
+Internet Control Message Protocol (ICMP) (287)  
+Internet Protocol (IP) (283)  
+intranet (279)  
+local area network (LAN) (269)  
+maximum transmission unit (MTU) (283)  
+Media Access Control (MAC) address (293)  
+mixed topology (270)  
+multi-protocol label switching (MPLS) (303)  
+network (268)  
+Network Address Translation (NAT) (301)  
+network segmentation (272)  
+packet (283)  
+packet fragmentation (283)  
+physical separation (273)  
+protocol (281)  
+quality of service (QoS) (305)  
+ring topology (270)  
+routing (295)  
+software-defined networking (303)  
+star topology (270)  
+storage area network (SAN) (269)  
+subnet mask (299)  
+subnetting (299)  
+three-way handshake (286)  
+topology (270)  
+Transmission Control Protocol (TCP) (285)  
+trunking (274)  
+User Datagram Protocol (UDP) (285)  
+virtual local area network (VLAN) (270)  
+
+
+
+===== ISE331-EoC-Chap09.pdf | Page 4 =====
+
+virtualization (275)  
+wide area network (WAN) (269)  
+wireless (271)  
+zero trust (276)  
+zones (276)   
+ 
+Key Terms Quiz 
+ 
+Use terms from the Key Terms list to complete the sentences that follow. Don’t use the same 
+term more than once. Not all terms will be used.  
+ 
+1.   A(n) _______________ is a group of two or more devices linked together to share data.  
+ 
+2.   A packet in an IP network is sometimes called a(n) _______________.  
+ 
+3.   Moving packets from source to destination across multiple networks is called 
+____________.  
+ 
+4.   The _______________ is the hardware address used to uniquely identify each device on 
+a network.  
+ 
+5.   A(n) _______________ tells you what portion of a 32-bit IP address is being used as the 
+network ID and what portion is being used as the host ID.  
+ 
+6.   The shape or arrangement of a network, such as bus, star, ring, or mixed, is known as the 
+_______________ of the network.  
+ 
+7.   A small, typically local network covering a relatively small area such as a single floor of 
+an office building is called a(n) _______________.  
+ 
+8.   A(n) _______________ is an agreed-upon format for exchanging information between 
+systems.  
+ 
+9.   The packet exchange sequence (SYN, SYN/ACK, ACK) that initiates a TCP connection 
+is called the _______________.  
+ 
+10.   _______________ is the protocol that allows the use of private, internal IP addresses for 
+internal traffic and public IP addresses for external traffic.   
+ 
+Multiple-Choice Quiz  
+ 
+1.   What is Layer 1 of the OSI model called?  
+A.   The physical layer  
+B.   The network layer  
+C.   The initial layer  
+D.   The presentation layer  
+
+
+
+===== ISE331-EoC-Chap09.pdf | Page 5 =====
+
+ 
+2.   Which of the following statements best describes the User Datagram Protocol (UDP)?  
+A.   It provides excellent error-checking algorithms.  
+B.   It is a connectionless protocol.  
+C.   It guarantees delivery of packets.  
+D.   It requires a permanent connection between the source and destination.  
+ 
+3.   What is the process that dynamically assigns an IP address to a network device called?  
+A.   NAT  
+B.   DNS  
+C.   DHCP  
+D.   Routing  
+ 
+4.   What is the three-way handshake sequence used to initiate TCP connections?  
+A.   ACK, SYN/ACK, ACK  
+B.   SYN, SYN/ACK, ACK  
+C.   SYN, SYN, ACK/ACK  
+D.   ACK, SYN/ACK, SYN  
+ 
+5.   Which of the following is a control and information protocol used by network devices to 
+determine such things as a remote network’s availability and the length of time required to reach 
+a remote network?  
+A.   UDP  
+B.   NAT  
+C.   TCP  
+D.   ICMP  
+ 
+6.   What is the name of the protocol that translates names into IP addresses?  
+A.   TCP  
+B.   DNS  
+C.   ICMP  
+D.   DHCP  
+ 
+7.   Dividing a network address space into smaller, separate networks is called what?  
+A.   Translating  
+B.   Network configuration  
+C.   Subnetting  
+D.   Address translation  
+ 
+8.   Which protocol translates private (nonroutable) IP addresses into public (routable) IP 
+addresses?  
+A.   NAT  
+B.   DHCP  
+C.   DNS  
+D.   ICMP  
+ 
+
+
+
+===== ISE331-EoC-Chap09.pdf | Page 6 =====
+
+9.   Which of the following statements best describes the Transmission Control Protocol (TCP)?  
+A.   It is connectionless.  
+B.   It provides no error checking.  
+C.   It allows for packets to be processed in the order they were sent.  
+D.   It has no overhead.  
+ 
+10.   Which of the following would be a valid MAC address?  
+A.   00:07:e9  
+B.   00:07:e9:7c:c8  
+C.   00:07:e9:7c:c8:aa  
+D.   00:07:e9:7c:c8:aa:ba   
+ 
+Essay Quiz  
+ 
+1.   A developer in your company is building a new application and has asked you if she should 
+use TCP- or UDP-based communications. Provide her with a brief discussion of the advantages 
+and disadvantages of each protocol.  
+ 
+2.   Your boss wants to know if DHCP is appropriate for both server and PC environments. 
+Provide her with your opinion and be sure to include a discussion of how DHCP works.  
+ 
+3.   Describe three basic types of network topologies and provide a sample diagram of each type.  
+ 
+4.   Describe the three-way handshake process used to initiate TCP connections.  
+ 
+5.   Your boss wants to know how subnetting works. Provide her with a brief description and be 
+sure to include an example to illustrate how subnetting works.  
+ 
+Lab Projects 
+ 
+Lab Project 9.1  
+A client of yours only has five external, routable IP addresses but has over 50 systems that they 
+want to be able to reach the Internet for web surfing, e-mail, and so on. Design a network 
+solution for the client that addresses their immediate needs but will still let them grow in the 
+future. 
+ 
+Lab Project 9.2 
+Your boss wants you to learn how to use the arp and nslookup commands. Find a Windows 
+system and open a command/DOS prompt. Type in arp and press ENTER to see the options for 
+the arp command. Use the arp command to find the MAC address of your system and at least 
+five other systems on your network. When you are finished with arp, type in nslookup and press 
+ENTER. At the prompt, type in the name of your favorite website, such as www.cnn.com. The 
+nslookup command will return the IP addresses that match that domain name. Find the IP 
+addresses of at least five different websites. 
+ 
+
+
+
+===== ISE331-EoC-Chap09.pdf | Page 7 =====
+
+Conklin, Wm. Arthur; White, Greg; Cothren, Chuck; Davis, Roger L.; Williams, Dwayne. 
+Principles of Computer Security: CompTIA Security+ and Beyond, Sixth Edition (Exam SY0-
+601) (pp. 306-309). McGraw Hill LLC. Kindle Edition. 

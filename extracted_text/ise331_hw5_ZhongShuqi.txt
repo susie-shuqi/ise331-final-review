@@ -1,0 +1,84 @@
+
+
+===== ise331_hw5_ZhongShuqi.pdf | Page 1 =====
+
+Shuqi Zhong 
+116777748 
+Shuqzhong 
+4/5/2026 
+ISE331-HW5 
+10.1. Compare and contrast routers and switches by describing the advantages and disadvantages 
+of each. 
+Routers connect different networks and use IP addresses to forward data. Switches work inside 
+the same local network and use MAC addresses. Switches are usually faster and cheaper, while 
+routers are more powerful but more expensive. Routers and switches are both important network 
+devices, but they have different purposes. A switch is mainly used in a local area network to 
+connect devices and send data based on MAC addresses, so it is fast and efficient for 
+communication within the same subnet. It is also cheaper and easier to use. However, it cannot 
+connect different networks. A router, on the other hand, connects multiple networks and uses IP 
+addresses to decide where to send data. It provides more control over traffic but is usually more 
+expensive and slightly slower. In general, switches are better for local communication, while 
+routers are needed for communication between networks. 
+11.1. A co-worker with a strong Windows background is having difficulty understanding Linux 
+file permissions. Describe Linux file permissions to him. Compare Linux file permissions to 
+Windows file permissions.  
+Linux permissions are divided into owner, group, and others. Each group has read, write, and 
+execute permissions, shown as rwx rwx rwx. Linux permissions are simple and often managed 
+by command line, while Windows permissions are more detailed and usually controlled through 
+a graphical interface. 
+11.2. How are authentication and authorization alike and how are they different. What is the 
+relationship, if any, between the two? 
+Authentication is used to verify a user’s identity, while authorization is used to decide what the 
+user can do. Both are used for access control, and authentication happens before authorization. 
+Authentication and authorization are closely related but have different roles in security. 
+Authentication is the process of verifying who the user is, such as logging in with a password or 
+fingerprint. Authorization determines what actions the user is allowed to perform after they are 
+authenticated. They are similar because both are used to control access to systems, but they are 
+different in purpose. Authentication must happen first, because the system needs to know the 
+
+
+
+===== ise331_hw5_ZhongShuqi.pdf | Page 2 =====
+
+user’s identity before giving permissions. Without authentication, authorization cannot work 
+properly. 
+13.1. Discuss the differences between an anomaly-based and a misuse-based detection model. 
+Which would you use to protect a corporate network of 10,000 users? Why would you choose 
+that model? 
+An anomaly-based model detects unusual behavior and can find new attacks, but it is complex 
+and produces many false positives. A misuse-based model detects known attack patterns, is 
+easier to use, and has fewer false positives, but it cannot detect new attacks without known 
+signatures. 
+An anomaly-based detection model focuses on identifying behavior that is different from normal 
+patterns, which allows it to detect new or unknown attacks. However, it is more complex and 
+often produces many false positives, which can be difficult to manage. A misuse-based model, 
+on the other hand, looks for known patterns of attacks, making it easier to implement and more 
+accurate for known threats, but it may miss new attacks without existing signatures. For a 
+corporate network with 10,000 users, I would choose a misuse-based model because it is more 
+stable and produces fewer false alarms, which is important in a large system. In practice, 
+combining both models would provide better security. 
+15.1. Compare and contrast port scanning and ping sweeps. 
+Ping sweeps are used to find active devices in a network, while port scanning is used to find 
+open ports and running services. Both are used for network information gathering. 
+Port scanning and ping sweeps are both techniques used to collect information about a network, 
+but they focus on different aspects. A ping sweep is used to identify which IP addresses are 
+active, meaning which devices are online. Port scanning is used to check which ports are open on 
+a device and what services are running. The similarity is that both are used for network 
+discovery, but the difference is that ping sweeps identify active hosts, while port scanning 
+provides more detailed information about services. Together, they are often used in the early 
+stage of network analysis or attacks. 
+15.2. What is the best practice to employ to mitigate malware effects on a machine? 
+To reduce malware effects, it is important to use antivirus software and keep it updated, and also 
+keep the operating system and applications updated. 
+The best way to mitigate malware effects on a machine is to maintain good security practices. 
+First, antivirus software should be installed and regularly updated so that it can detect and 
+remove malware. Second, the operating system and all applications should be kept up to date, 
+
+
+
+===== ise331_hw5_ZhongShuqi.pdf | Page 3 =====
+
+because many malware attacks take advantage of known vulnerabilities in outdated software. By 
+combining updated security software and regular system updates, the risk and impact of malware 
+can be greatly reduced. 
+ 

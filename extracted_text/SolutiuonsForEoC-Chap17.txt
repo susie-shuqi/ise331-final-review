@@ -1,0 +1,79 @@
+
+
+===== SolutiuonsForEoC-Chap17.pdf | Page 1 =====
+
+Principles of Computer Security, Sixth Edition 
+ 
+ 
+ 
+ 
+Chapter 17 Solutions 
+Copyright © 2022 by McGraw Hill. All rights reserved. 
+ 
+ 
+ 
+ 
+ 
+1 
+Principles of Computer Security, Sixth Edition 
+Chapter 17 Solutions 
+Key Terms Quiz 
+1. unsolicited commercial e-mail 
+2. DomainKeys Identified mail (DKIM) 
+3. botnet 
+4. Multi-Purpose Internet Mail Extensions (MIME) 
+5. Real-time Blackhole List (RBL) 
+6. Open relay 
+7. Sender Policy Framework 
+8. plug-in, or browser helper object, or browser extension 
+9. Instant messaging (IM) 
+10. Simple Mail Transfer Protocol (SMTP) 
+Multiple-Choice Quiz 
+1. A. Zombie botnets send the majority of spam; using them is one of the ways that criminals 
+can profit from Internet fraud. 
+2. B. Cookies with the [secure] tag are passed by browsers only over HTTPS connections. 
+3. D. Open e-mail relays allow anyone to send e-mail through the server. 
+4. C. JavaScript security is ultimately the responsibility of the end user, and the options exist in 
+browsers to select various security levels or even disable it altogether. 
+5. B. Code signing includes data integrity checking through a hash value. 
+6. A. File sharing through instant messaging can bypass server-based virus protections. 
+7. B. The public key is used to encrypt the symmetric key, which is then used to encrypt the 
+message contents, because encrypting the entire message would take too much processing 
+power. 
+
+
+
+===== SolutiuonsForEoC-Chap17.pdf | Page 2 =====
+
+Principles of Computer Security, Sixth Edition 
+ 
+ 
+ 
+ 
+Chapter 17 Solutions 
+Copyright © 2022 by McGraw Hill. All rights reserved. 
+ 
+ 
+ 
+ 
+ 
+2 
+8. C. HTML e-mail can carry embedded instructions to download or run scripts that can be 
+launched from the preview pane in some e-mail programs, without requiring that the user 
+actively launch the attached program. 
+9. C. IM protocols require the traffic to travel to the hosting server, so two users within an 
+organization are sending the traffic to an outside server and back when communicating via 
+IM. 
+10. D. TLS provides all three types of service. 
+Essay Quiz 
+1. A successful spam policy should be built on strong upstream filtering, integrating some form 
+of DNS-based source filtering. Strong keyword filtering also helps once the spam has 
+reached the organization. Greylisting or SPF may also be used to implement spam policy. 
+2. The memo should talk about how malware can be transmitted through e-mail and IM 
+programs, as well as how malware can give full control of your computer to an attacker, how 
+all your personal or professional data could be stolen by the attacker, and how an attacker can 
+use your computer to attack others on the network. The memo should also address methods 
+of virus detection, such as strange reboots or a cursor moving on its own, as well as whom to 
+contact when the behavior is detected. It should also speak about how to use the desktop 
+antivirus system. 
+ 
